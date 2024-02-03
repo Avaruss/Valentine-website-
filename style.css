@@ -1,0 +1,65 @@
+
+
+   
+body {
+    font-family: 'Lobster', cursive;
+    background-color: #ffdde1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin: 0;  
+    font-size: 35px;
+    color: rgb(255, 0, 174);
+    
+    background-image:
+         url("https://www.freevector.com/uploads/vector/preview/18967/01-01.jpg");
+         background-size: cover; 
+         
+    .image{
+            height: 400px;}
+    h2{
+        position: absolute;
+       text-align: center;
+       top: 25px;
+       color: #f54266  }
+    h1{ 
+        position: absolute;
+        text-align: center;
+        top: 115px; 
+        left: 0px;
+        right: 0; 
+    color: #f54266}
+    .container{
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border-radius: 0%;
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .buttons button {
+        background-color: #ff4d79;
+        color: #fff;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 10px;
+        margin: 10px;
+        font-size: 26px;
+        cursor: pointer;
+        position: relative;
+        font-family: 'Lobster', cursive;
+      }
+    }
+     
+    
+    
+
+    
